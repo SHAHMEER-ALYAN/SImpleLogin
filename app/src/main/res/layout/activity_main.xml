@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:SImpleLogin="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:background="@color/ScreenBackground">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/slogo">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Username_String"
+            android:layout_marginTop="-50dp"
+            android:textColor="@color/Logo_Purple"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Username"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:background="@drawable/bg_inputbox"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Password_String"
+            android:textSize="20dp"
+            android:textColor="@color/Logo_Purple"
+            android:textStyle="bold"
+            ></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Password"
+            android:background="@drawable/bg_inputbox"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="10dp"
+            android:paddingHorizontal="20dp"
+            ></EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="130dp"
+            android:text="@string/Sign_In_Button"
+            android:background="@drawable/bg_button"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="100dp"
+            android:background="@drawable/bg_button"
+            android:layout_marginVertical="20dp"
+            android:text="@string/Create_Account_Button"></Button>
+
+
+
+        <!-- Add your content inside this LinearLayout -->
+
+    </LinearLayout>
+
+</LinearLayout>
