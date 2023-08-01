@@ -35,6 +35,7 @@
             android:textAlignment="center"></TextView>
 
         <EditText
+            android:id="@+id/UsernameID"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="Enter Username"
@@ -42,7 +43,8 @@
             android:layout_marginHorizontal="50dp"
             android:layout_marginVertical="10dp"
             android:paddingHorizontal="20dp"
-            android:background="@drawable/bg_inputbox"></EditText>
+            android:background="@drawable/bg_inputbox"
+            android:inputType="textEmailAddress"></EditText>
 
         <TextView
             android:layout_width="wrap_content"
@@ -54,6 +56,7 @@
             ></TextView>
 
         <EditText
+            android:id="@+id/PasswordID"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="Enter Password"
@@ -61,15 +64,18 @@
             android:layout_marginHorizontal="50dp"
             android:layout_marginVertical="10dp"
             android:paddingHorizontal="20dp"
-            ></EditText>
+            android:textColor="@color/black"
+            android:inputType="textPassword"></EditText>
 
         <Button
+            android:id="@+id/SignIn"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginHorizontal="130dp"
-            android:text="@string/Sign_In_Button"
+            android:text="@string/Login_Button"
             android:background="@drawable/bg_button"></Button>
         <Button
+            android:id="@+id/CreateAccount"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginHorizontal="100dp"

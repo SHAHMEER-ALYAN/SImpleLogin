@@ -2,6 +2,6 @@
     <string name="app_name">SimpleLogin</string>
     <string name="Username_String">Username</string>
     <string name="Password_String">Password</string>
-    <string name="Sign_In_Button">Sign In</string>
+    <string name="Login_Button">Login</string>
     <string name="Create_Account_Button">Create Account</string>
 </resources>
