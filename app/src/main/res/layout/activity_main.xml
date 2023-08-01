@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center|top"
-        android:background="@color/ScreenBackground">
+        android:background="@color/white">
 
         <ImageView
             android:layout_width="300dp"
@@ -38,7 +38,7 @@
             android:id="@+id/UsernameID"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="Enter Username"
+            android:hint="Enter Username or Email"
             android:textColor="@color/black"
             android:layout_marginHorizontal="50dp"
             android:layout_marginVertical="10dp"

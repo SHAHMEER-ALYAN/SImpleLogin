@@ -1,5 +1,6 @@
 package pk.edu.iqra.simplelogin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -30,6 +31,11 @@ class MainActivity : AppCompatActivity() {
 
                 if(username_details.contentEquals("USER") && password_details.contentEquals("123456")){
                     Toast.makeText(this@MainActivity,"LOGIN Successful",Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this@MainActivity,HomeActivity::class.java).apply {
+                        startActivity(this)
+                        finish()
+                    }
+
                 }
                 else{
                     Toast.makeText(this@MainActivity,"Invalid Credentials",Toast.LENGTH_LONG).show()
