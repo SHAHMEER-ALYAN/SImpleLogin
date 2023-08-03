@@ -16,7 +16,8 @@
         android:text="Welcome"
         android:textColor="@color/Logo_Purple"
         android:textSize="24dp"
-        android:textStyle="bold"></TextView>
+        android:textStyle="bold"
+        android:paddingVertical="20dp"></TextView>
 
     <Button
         android:id="@+id/Logout_Button"
@@ -26,5 +27,16 @@
         android:layout_below="@id/WelcomeText"
         android:background="@color/Logo_blue"
         android:text="@string/LogoutText"></Button>
+
+    <Button
+        android:id="@+id/btn_Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Logo_blue"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/Logout_Button"
+        android:layout_marginVertical="20dp"
+        android:text="Open Main Menu"
+        android:paddingHorizontal="20dp"></Button>
 
 </RelativeLayout>

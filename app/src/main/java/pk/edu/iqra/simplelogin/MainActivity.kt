@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         SignIN.setOnClickListener {
 
-            val username_details = Username.text.trim()
+            val username_details = Username.text.trim().toString()
             val password_details = Password.text.trim()
 
             if (username_details.isNotEmpty() && password_details.isNotEmpty()){
@@ -32,7 +32,10 @@ class MainActivity : AppCompatActivity() {
                 if(username_details.contentEquals("USER") && password_details.contentEquals("123456")){
                     Toast.makeText(this@MainActivity,"LOGIN Successful",Toast.LENGTH_SHORT).show()
                     val intent = Intent(this@MainActivity,HomeActivity::class.java).apply {
+
+                        putExtra("Name", username_details)
                         startActivity(this)
+
                         finish()
                     }
 

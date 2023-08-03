@@ -5,4 +5,5 @@
     <string name="Login_Button">Login</string>
     <string name="Create_Account_Button">Create Account</string>
     <string name="LogoutText">Logout</string>
+    <string name="Seizure_Deck">Seizure Deck</string>
 </resources>
