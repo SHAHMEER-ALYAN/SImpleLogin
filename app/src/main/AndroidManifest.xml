@@ -16,9 +16,6 @@
             android:name=".MenuActivity"
             android:exported="false" />
         <activity
-            android:name=".Menu"
-            android:exported="false" />
-        <activity
             android:name=".screens.SplashActivity"
             android:exported="true">
             <intent-filter>
